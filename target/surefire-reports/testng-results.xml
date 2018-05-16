@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[application URL is:-http://52.90.203.123/#/]]>
+    </line>
+    <line>
+      <![CDATA[food pillar is present in homepage landing screen]]>
+    </line>
+    <line>
+      <![CDATA[fun pillar is present in homepage landing screen]]>
+    </line>
+    <line>
+      <![CDATA[Family pillar is present in homepage landing screen]]>
+    </line>
+    <line>
+      <![CDATA[application Title is:-Samsung IOT]]>
+    </line>
+  </reporter-output>
+  <suite name="MySuite" duration-ms="53640" started-at="2018-05-16T12:54:45Z" finished-at="2018-05-16T12:55:39Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:SIOT.Samsung.Test.RunnerTest@396e2f39]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="SIOT Test" duration-ms="53640" started-at="2018-05-16T12:54:45Z" finished-at="2018-05-16T12:55:39Z">
+      <class name="SIOT.Samsung.Test.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:SIOT.Samsung.Test.RunnerTest@396e2f39]" name="setUpClass" is-config="true" duration-ms="184" started-at="2018-05-16T12:54:45Z" finished-at="2018-05-16T12:54:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:SIOT.Samsung.Test.RunnerTest@396e2f39]" name="feature" duration-ms="53369" started-at="2018-05-16T12:54:46Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-16T12:55:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[HomePage Verification]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[application URL is:-http://52.90.203.123/#/]]>
+            </line>
+            <line>
+              <![CDATA[food pillar is present in homepage landing screen]]>
+            </line>
+            <line>
+              <![CDATA[fun pillar is present in homepage landing screen]]>
+            </line>
+            <line>
+              <![CDATA[Family pillar is present in homepage landing screen]]>
+            </line>
+            <line>
+              <![CDATA[application Title is:-Samsung IOT]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:SIOT.Samsung.Test.RunnerTest@396e2f39]" name="tearDownClass" is-config="true" duration-ms="11" started-at="2018-05-16T12:55:39Z" finished-at="2018-05-16T12:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- SIOT.Samsung.Test.RunnerTest -->
+    </test> <!-- SIOT Test -->
+  </suite> <!-- MySuite -->
+</testng-results>

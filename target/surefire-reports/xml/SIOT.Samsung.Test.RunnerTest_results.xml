@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SIOT Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="53.369">
+  <properties />
+  
+  
+            <testcase name="feature" time="53.369" classname="SIOT.Samsung.Test.RunnerTest" />
+      
+</testsuite>

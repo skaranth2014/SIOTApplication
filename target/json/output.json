@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Samsung landing Screen",
+        "description": "",
+        "id": "homepage-verification;samsung-landing-screen",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8889498378,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open SIOT Application",
+            "match": {
+              "location": "HomePageTest.user_open_SIOT_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12381893,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "verify current URL",
+            "match": {
+              "location": "HomePageTest.verify_current_URL()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44297245759,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user navigates to landing Screen and verify screen with below scenerios",
+            "match": {
+              "location": "HomePageTest.usernavigatestolandingScreen()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37060382,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify food pillar",
+            "match": {
+              "location": "HomePageTest.verifyfoodpillar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36350773,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify fun pillar",
+            "match": {
+              "location": "HomePageTest.verifyfunpillar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40130993,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify family pillar",
+            "match": {
+              "location": "HomePageTest.verify_family_pillar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9875784,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify the Title of the page",
+            "match": {
+              "location": "HomePageTest.verify_the_Title_of_the_page()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "HomePage Verification",
+    "description": "Verify if user is able to access the URL",
+    "id": "homepage-verification",
+    "keyword": "Feature",
+    "uri": "java/FeatruresFiles/Homepage.feature"
+  }
+]
